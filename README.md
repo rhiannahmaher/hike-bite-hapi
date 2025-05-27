@@ -140,7 +140,7 @@ Additionally, it can be useful for developers who wish to integrate food stop da
 
 Rhiannah Maher - 20085527@mail.wit.ie
 
-Project Link: [https://github.com/rhiannahmaher/hike-bite](https://github.com/rhiannahmaher/hike-bite)
+Project Link: [https://github.com/rhiannahmaher/hike-bite](https://github.com/rhiannahmaher/hike-bite-hapi.git)
 
 <!-- Acknowledgments -->
 ## Acknowledgements
