@@ -1,0 +1,29 @@
+<Card title="Stops Added">
+  <table class="table is-fullwidth">
+    <thead>
+      <th style="color: Forestgreen;">Name</th>
+      <th style="color: Forestgreen;">Type</th>
+      <th style="color: Forestgreen;">Location</th>
+      <th style="color: Forestgreen;">Added By</th>
+    </thead>
+    <tbody>
+      {{#each trails}}
+      <tr>
+        <td>
+          {{name}}
+        </td>
+        <td>
+          {{type}}
+        </td>
+        <td>
+          {{location.name}}
+        </td>
+        <td>
+          {{donor}}
+        </td>
+        </tr>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</Card>

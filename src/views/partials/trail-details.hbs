@@ -1,0 +1,14 @@
+<Card title="Stops with Images and Info" class="mt-5">
+  <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
+    {{#each trails}}
+    <div class="box" style="display: flex; flex-direction: column; width: 300px;">
+      <div style="border: 1px solid #ddd; padding: 1rem; border-radius: 6px; margin-top: 0.5rem;">
+        <h5 style="color: Forestgreen; text-align: center; font-weight: bold; margin-bottom: 0.75rem;">{{name}}</h5>
+        <p><strong>Type:</strong> {{type}}</p>
+        <p><strong>Location:</strong> {{location.name}}</p>
+        <p><strong>Added By:</strong> {{donor}}</p>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</Card>

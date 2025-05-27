@@ -1,0 +1,32 @@
+{{> menu }}
+{{> heading }}
+
+<div class="columns is-flex is-flex-direction-column is-align-items-center">
+  <div class="column is-half">
+    <div class="card mb-5">
+      <header class="card-header">
+        <p class="card-header-title">
+          <span style="color: Forestgreen;" class="fas fa-map-marker-alt"></i></span><span>Stops Added</span>
+        </p>
+      </header>
+      <div class="card-content">
+        <div class="content">
+          {{> trail-list}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <div class="card mb-5">
+      <header class="card-header">
+        <p class="card-header-title">
+          <span class="icon"><i style="color: Forestgreen;" class="fas fa-map-marker-alt"></i></span><span>Stops</span>
+        </p>
+      </header>
+      <div class="card-content">
+        <div class="content">
+          {{> trail-details }}
+        </div>
+      </div>
+    </div>
+</div>
