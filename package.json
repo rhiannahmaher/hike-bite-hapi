@@ -11,6 +11,9 @@
     "build": "tsc",
     "dev:tsc": "tsc --watch"
   },
+  "engines": {
+    "node": ">=16"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
