@@ -114,7 +114,7 @@ Run the following command to install all the necessary packages:
 Once everything is set up, you can start the development server:
 
     ```bash
-        npm start
+        npm run dev
     ```
 
 This will start the Node.js server, and you should be able to access the application at `http://localhost:3000`
